@@ -16,7 +16,7 @@ import paho.mqtt.client as mqtt # สำหรับการสื่อสา�
 ```python
 MQTT_BROKER = '0.tcp.ap.ngrok.io'  # ที่อยู่ MQTT Broker
 MQTT_PORT = 10016                  # Port สำหรับเชื่อมต่อ
-MQTT_TOPIC = '/chacharin/led'      # Topic สำหรับส่งข้อมูล
+MQTT_TOPIC = '/Samritd/led'      # Topic สำหรับส่งข้อมูล
 ```
 
 ## คลาส MqttGui
@@ -113,7 +113,7 @@ import paho.mqtt.client as mqtt
 
 MQTT_BROKER = '0.tcp.ap.ngrok.io'
 MQTT_PORT = 10016
-MQTT_TOPIC = '/chacharin/led'
+MQTT_TOPIC = '/Samritd/led'
 
 class MqttGui:
     def __init__(self):
